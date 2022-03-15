@@ -1,0 +1,5 @@
+Add-WindowsCapability -Online -Name "SNMP.Client~~~~0.0.1.0"
+
+DISM /online /add-capability /capabilityname:SNMP.Client~~~~0.0.1.0
+
+Get-WindowsCapability -Online -Name "SNMP*"
