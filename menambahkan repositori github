@@ -1,0 +1,10 @@
+langkah langkah git 
+
+________________________
+git init -> untuk melakukan repository 
+
+git status -> untuk memberikan status apakah ada file baru
+
+git add . -> untuk menambahkan file ke stage area
+
+git commit -m "" -> untuk melakukan commit
