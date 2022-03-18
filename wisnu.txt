@@ -1,0 +1,31 @@
+172.16.25.0/28 ---> jaringan admin
+10.50.25.0./27 ---> Jaringan Tamu 
+192.168.10.0/28 ---> Staff Administrasi
+192.168.20.0/27 ---> Staff Keuangan
+200.50.50.0/29 ----> Server
+
+Jaringan admin -- >             host      = 172.16.25.2 - 172.16.25.14
+			        network   = 172.16.25.0
+			        broadcast = 172.16.25.15
+				gateway   = 172.16.25.1
+				netmask   = 255.255.255.240
+Jaringan Tamu -- >     		host      = 10.50.25.2 - 10.50.25.30
+				network   = 10.50.25.0
+				broadcast = 10.50.25.31
+				gateway   = 10.50.25.1
+				netmask   = 255.255.255.224
+Jaringan staff administrasi --> host 	  = 192.168.10.2 - 192.168.10.14
+				network   = 192.168.10.0
+				broadcast = 192.168.10.15
+				gateway   = 192.168.10.1
+				netmask   = 255.255.255.240
+Jaringan Staff Keuangan -- > 	host 	  = 192.168.20.2 - 192.168.20.30
+				network   = 192.168.20.0
+				broadcast = 192.168.20.31
+				gateway   = 192.168.20.1
+				netmask   = 255.255.255.224
+Jaringan Server  --> 		host	  = 200.50.50.2 - 200.50.50.6
+				network   = 200.50.50.0
+				broadcast = 200.50.50.7
+				gateway   = 200.50.50.1
+				netmask   = 255.255.255.248
