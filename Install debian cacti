@@ -1,0 +1,15 @@
+Apt-cdrom add.    (Debian iso 2&3)
+Apt-get update      (Debian iso 2&3)
+
+Nano/etc/network/interfaces
+Nano /init.d/networking restart
+Nano /etc/sysctl.conf
+
+Hapus pagar ipv4 forward 
+
+Nano/etc/resolv.conf
+Name server (IP MIKROTIK ) & (IP ETH 1)
+/etc/init.d/networking restart
+Apt-get remove cacti
+Apt-get --purge remove
+Nano/etc/apt/resources.list
